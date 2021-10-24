@@ -12,14 +12,53 @@ i.	Elements should stack vertically when the window is small -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Week 9</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
-    <div class= "alert alert-primary" role="alert">
-        works
+    <div class="d-flex justify-content-center">
+      <nav class="navbar navbar-expand-lg">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="page2.html">Form</a></li>
+          </ul>
+      </nav>
+    </div>
+      
+    <div class="container">
+        <h2>Welcome</h2>
+        <p>This is my example bootstrap page made for PromineoTech, demonstrating my excellence with div containers.</p>
+        <p>On this page, I will include a table, and on the next page, I will include a form.</p>
+        <p>I hope that this counts as two pages, I think it does?</p>
+        <p>Anyway, heres a table of my sorority family:</p>
     </div>
 
+    <div class="container">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+              <th scope="col">Family Rank</th>
+              <th scope="col">Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">G-Big</th>
+              <td>Sarah H.</td>
+            </tr>
+            <tr>
+              <th scope="row">Little</th>
+              <td>Grace WM.</td>
+            </tr>
+            <tr>
+              <th scope="row">G-Little</th>
+              <td>Hanley S.</td>
+            </tr>
+          </tbody>
+    </table>
+</div>
+    
     <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
